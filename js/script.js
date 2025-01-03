@@ -1,4 +1,4 @@
-const BASE_URL = 'http://used-car-shop.rf.gd/';
+const BASE_URL = 'https://used-car-shop.rf.gd/';
 
 function fetchCarListings() {
     fetch(`${BASE_URL}fetch_listings.php`)
