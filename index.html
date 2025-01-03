@@ -1,1 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Used Car Shop</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Used Car Shop</h1>
+            <nav>
+                <ul>
+                    <li><a href="#listings">Listings</a></li>
+                    <li><a href="#register">Register</a></li>
+                    <li><a href="#login">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="listings" class="container">
+            <h2>Available Cars</h2>
+            <div id="car-listings">
+                <!-- Car listings will be dynamically loaded here -->
+            </div>
+        </section>
+
+        <section id="register" class="container">
+            <h2>Register</h2>
+            <form id="registerForm">
+                <input type="text" name="username" placeholder="Username" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="password" name="password" placeholder="Password" required>
+                <button type="submit">Register</button>
+            </form>
+            <div id="registerResponse"></div>
+        </section>
+
+        <section id="login" class="container">
+            <h2>Login</h2>
+            <form id="loginForm">
+                <input type="text" name="usernameOrEmail" placeholder="Username or Email" required>
+                <input type="password" name="password" placeholder="Password" required>
+                <button type="submit">Login</button>
+            </form>
+            <div id="loginResponse"></div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Used Car Shop. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
 
